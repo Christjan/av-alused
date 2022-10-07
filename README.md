@@ -15,7 +15,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec rutrum tellus
 - Element2
 
 ```
+<?php
+header("Location: http://www.example.com/"); /* Redirect browser */
 
-
+/* Make sure that code below does not get executed when we redirect. */
+exit;
+?>
 
 ```
